@@ -13,7 +13,7 @@ const buttonVariants = cva(
         destructive:
           "bg-destructive text-black hover:bg-destructive/90",
         outline:
-          "border border-primary/20 bg-background text-black hover:bg-primary hover:text-black transition-all duration-300",
+          "border border-primary/20 bg-white text-black hover:bg-primary hover:text-black transition-all duration-300",
         secondary:
           "bg-secondary text-black hover:bg-secondary/80",
         ghost: "hover:bg-accent text-black hover:text-black",
@@ -21,6 +21,7 @@ const buttonVariants = cva(
         hero: "bg-gradient-hero text-black hover:shadow-aurora transform hover:scale-105 transition-all duration-300 font-semibold",
         cta: "bg-gradient-aurora text-black hover:shadow-glow transform hover:scale-105 transition-all duration-300 font-semibold border border-primary/20",
         aurora: "bg-gradient-primary text-black hover:bg-gradient-aurora hover:shadow-glow transition-all duration-300",
+        white: "bg-white text-black border border-primary/20 hover:bg-primary/5 transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",

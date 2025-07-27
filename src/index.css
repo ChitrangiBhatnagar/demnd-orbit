@@ -17,38 +17,42 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 40% 8%;
 
-    /* Teal primary color #18B2A2 */
-    --primary: 174 73% 41%;
+    /* Aurora Light primary colors - Deep Navy #03045e */
+    --primary: 237 91% 19%;
     --primary-foreground: 0 0% 100%;
     
-    /* Light teal variants */
-    --primary-light: 174 43% 85%;
-    --primary-glow: 174 73% 51%;
+    /* Aurora Light variants */
+    --primary-light: 188 69% 88%; /* Very light cyan #caf0f8 */
+    --primary-glow: 194 100% 42%; /* Cyan #00b4d8 */
+    --primary-mid: 202 100% 36%; /* Blue #0077b6 */
+    --primary-accent: 188 69% 74%; /* Light cyan #90e0ef */
 
-    --secondary: 174 20% 96%;
-    --secondary-foreground: 174 73% 25%;
+    --secondary: 188 69% 94%;
+    --secondary-foreground: 237 91% 19%;
 
-    --muted: 210 40% 96%;
+    --muted: 188 40% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 174 50% 95%;
-    --accent-foreground: 174 73% 25%;
+    --accent: 188 69% 88%;
+    --accent-foreground: 237 91% 19%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 174 73% 41%;
+    --border: 188 30% 91%;
+    --input: 188 30% 91%;
+    --ring: 237 91% 19%;
     
-    /* Custom gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--accent)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-glow)) 100%);
+    /* Aurora gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(237 91% 19%), hsl(202 100% 36%));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(188 69% 95%));
+    --gradient-hero: linear-gradient(135deg, hsl(237 91% 19%) 0%, hsl(194 100% 42%) 50%, hsl(188 69% 74%) 100%);
+    --gradient-aurora: linear-gradient(135deg, hsl(194 100% 42%), hsl(188 69% 74%), hsl(188 69% 88%));
     
-    /* Shadows */
-    --shadow-elegant: 0 10px 30px -10px hsl(var(--primary) / 0.2);
-    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.3);
+    /* Aurora shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(194 100% 42% / 0.3);
+    --shadow-glow: 0 0 40px hsl(188 69% 74% / 0.4);
+    --shadow-aurora: 0 20px 60px -10px hsl(237 91% 19% / 0.2);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

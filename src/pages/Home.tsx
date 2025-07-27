@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Shield, Zap, Target, ArrowRight, Star } from "lucide-react";
-import heroDashboard from "@/assets/hero-dashboard.jpg";
-import validationProcess from "@/assets/validation-process.jpg";
+import heroDashboard from "@/assets/aurora-dashboard.jpg";
+import validationProcess from "@/assets/aurora-process.jpg";
 
 const Home = () => {
   const benefits = [

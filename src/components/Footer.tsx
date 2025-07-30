@@ -24,9 +24,9 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Product</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link to="/features" className="text-muted-foreground hover:text-primary">Features</Link></li>
-              <li><Link to="/pricing" className="text-muted-foreground hover:text-primary">Pricing</Link></li>
-              <li><Link to="/faq" className="text-muted-foreground hover:text-primary">FAQ</Link></li>
+              <li><a href="https://salescentri.com/solutions/psa-suite/features" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">Features</a></li>
+              <li><a href="https://salescentri.com/pricing" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">Pricing</a></li>
+              <li><a href="https://salescentri.com/contact/support-request" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">Support</a></li>
             </ul>
           </div>
 
@@ -34,17 +34,17 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link to="/about" className="text-muted-foreground hover:text-primary">About</Link></li>
-              <li><Link to="/blog" className="text-muted-foreground hover:text-primary">Blog</Link></li>
-              <li><Link to="/contact" className="text-muted-foreground hover:text-primary">Contact</Link></li>
+              <li><a href="https://salescentri.com/company/about-us" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">About</a></li>
+              <li><a href="https://salescentri.com/resources/case-studies" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">Resources</a></li>
+              <li><a href="https://salescentri.com/contact" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">Contact</a></li>
             </ul>
           </div>
         </div>
 
         <div className="border-t mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-wrap gap-4 text-sm text-muted-foreground mb-4 md:mb-0">
-            <Link to="/privacy" className="hover:text-primary">Privacy Policy</Link>
-            <Link to="/terms" className="hover:text-primary">Terms of Service</Link>
+            <a href="https://salescentri.com/trust/security-privacy" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Privacy Policy</a>
+            <a href="https://salescentri.com/trust/security-privacy" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Terms of Service</a>
             <span>© 2024 Demandorbit Solutions</span>
           </div>
           

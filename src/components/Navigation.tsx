@@ -51,11 +51,15 @@ const Navigation = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" size="sm">
-              Get Pricing
+            <Button variant="outline" size="sm" asChild>
+              <a href="https://salescentri.com/pricing" target="_blank" rel="noopener noreferrer">
+                Get Pricing
+              </a>
             </Button>
-            <Button variant="cta" size="sm">
-              Start Free Trial
+            <Button variant="cta" size="sm" asChild>
+              <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">
+                Start Free Trial
+              </a>
             </Button>
           </div>
 
@@ -90,11 +94,15 @@ const Navigation = () => {
                 </Link>
               ))}
               <div className="flex flex-col space-y-2 pt-4">
-                <Button variant="outline" size="sm">
-                  Get Pricing
+                <Button variant="outline" size="sm" asChild>
+                  <a href="https://salescentri.com/pricing" target="_blank" rel="noopener noreferrer">
+                    Get Pricing
+                  </a>
                 </Button>
-                <Button variant="cta" size="sm">
-                  Start Free Trial
+                <Button variant="cta" size="sm" asChild>
+                  <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">
+                    Start Free Trial
+                  </a>
                 </Button>
               </div>
             </div>

@@ -8,14 +8,14 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 210 40% 8%;
+    --background: 237 91% 19%;
+    --foreground: 0 0% 100%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 40% 8%;
+    --card-foreground: 0 0% 100%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 40% 8%;
+    --popover-foreground: 0 0% 100%;
 
     /* Aurora Light primary colors - Deep Navy #03045e */
     --primary: 237 91% 19%;
@@ -31,7 +31,7 @@ All colors MUST be HSL.
     --secondary-foreground: 237 91% 19%;
 
     --muted: 188 40% 96%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted-foreground: 0 0% 80%;
 
     --accent: 188 69% 88%;
     --accent-foreground: 237 91% 19%;

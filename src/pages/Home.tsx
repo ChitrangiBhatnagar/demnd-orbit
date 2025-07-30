@@ -72,12 +72,16 @@ const Home = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button variant="hero" size="lg" className="group">
-                  Start Free Trial
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                <Button variant="hero" size="lg" className="group" asChild>
+                  <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">
+                    Start Free Trial
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  </a>
                 </Button>
-                <Button variant="outline" size="lg">
-                  Get Pricing
+                <Button variant="outline" size="lg" asChild>
+                  <a href="https://salescentri.com/pricing" target="_blank" rel="noopener noreferrer">
+                    Get Pricing
+                  </a>
                 </Button>
               </div>
 
@@ -190,8 +194,10 @@ const Home = () => {
                 </div>
               </div>
 
-              <Button variant="cta" size="lg">
-                See Demo
+              <Button variant="cta" size="lg" asChild>
+                <a href="https://salescentri.com/solutions/use-case-navigator/demo" target="_blank" rel="noopener noreferrer">
+                  See Demo
+                </a>
               </Button>
             </div>
           </div>
@@ -241,11 +247,15 @@ const Home = () => {
             Join thousands of teams who trust Demandorbit for accurate contact validation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="secondary" size="lg">
-              Start Free Trial
+            <Button variant="secondary" size="lg" asChild>
+              <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">
+                Start Free Trial
+              </a>
             </Button>
-            <Button variant="outline" size="lg" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-              Schedule Demo
+            <Button variant="outline" size="lg" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
+              <a href="https://salescentri.com/get-started/book-demo" target="_blank" rel="noopener noreferrer">
+                Schedule Demo
+              </a>
             </Button>
           </div>
         </div>

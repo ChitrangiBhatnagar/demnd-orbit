@@ -9,15 +9,15 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-black hover:bg-primary/90 shadow-elegant transition-all duration-300",
+        default: "bg-black text-white hover:bg-black/90 shadow-elegant transition-all duration-300",
         destructive:
-          "bg-destructive text-black hover:bg-destructive/90",
+          "bg-destructive text-white hover:bg-destructive/90",
         outline:
           "border border-primary/20 bg-white text-black hover:bg-primary hover:text-black transition-all duration-300",
         secondary:
-          "bg-secondary text-black hover:bg-secondary/80",
-        ghost: "hover:bg-accent text-black hover:text-black",
-        link: "text-black underline-offset-4 hover:underline",
+          "bg-secondary text-white hover:bg-secondary/80",
+        ghost: "hover:bg-accent text-white hover:text-white",
+        link: "text-white underline-offset-4 hover:underline",
         hero: "bg-gradient-hero text-black hover:shadow-aurora transform hover:scale-105 transition-all duration-300 font-semibold",
         cta: "bg-gradient-aurora text-black hover:shadow-glow transform hover:scale-105 transition-all duration-300 font-semibold border border-primary/20",
         aurora: "bg-gradient-primary text-black hover:bg-gradient-aurora hover:shadow-glow transition-all duration-300",
